@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex">
+    <!--There are two sides of page, right side an image, left side a form and logo-->
+    <div class="h-screen w-1/2 bg-slate-400">
+        left<!--Theres a logo and form-->
+        <div class="grid place-content-center">
+            <img class="w-24 h-16" src="counsel-logo.svg" alt="counsel logo">
+            <form action="">
+                <input type="text" placeholder="Email"><br>
+                <input class="mt-6" type="password" placeholder="Password"><br>
+                <input type="submit" value="Login" class="p-2 w-1/2 bg-green-500 rounded-lg mt-5"><br>
+            </form>
+        </div>
+    </div>
+
+    <div class="h-screen w-1/2 bg-red-400">
+        right<!--Theres a picture-->
+        <img src="https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg1.jpg" alt="picture of plant">
+    </div>
+    
+</body>
+</html>
